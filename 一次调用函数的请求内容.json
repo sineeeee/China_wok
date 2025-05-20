@@ -1,0 +1,355 @@
+
+[
+    {
+      "headers": {
+        "host": "sineeeee.app.n8n.cloud",
+        "user-agent": "axios/1.8.3",
+        "content-length": "6922",
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, br",
+        "baggage": "sentry-environment=production,sentry-public_key=a0021577936aec367b16615ad816c078,sentry-trace_id=363e961b219b474ab7d534ea626787f8",
+        "cdn-loop": "cloudflare; loops=1; subreqs=1",
+        "cf-connecting-ip": "18.237.168.52",
+        "cf-ew-via": "15",
+        "cf-ipcountry": "US",
+        "cf-ray": "941680486295b84b-PDX",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "cf-worker": "n8n.cloud",
+        "content-type": "application/json",
+        "cookie": "callId=e99328c9-c129-4458-a24c-f8faa657df28",
+        "sentry-trace": "363e961b219b474ab7d534ea626787f8-9af30be1c9f85683",
+        "x-forwarded-for": "18.237.168.52, 104.23.160.88",
+        "x-forwarded-host": "sineeeee.app.n8n.cloud",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https",
+        "x-forwarded-server": "traefik-prod-users-gwc-63-757945c69-fw6gx",
+        "x-is-trusted": "yes",
+        "x-real-ip": "18.237.168.52",
+        "x-vapi-secret": ""
+      },
+      "params": {},
+      "query": {},
+      "body": {
+        "message": {
+          "timestamp": 1747520415923,
+          "type": "tool-calls",
+          "toolCalls": [
+            {
+              "id": "call_9RlNsUEHMMHxMsmwQ6atK3Mh",
+              "type": "function",
+              "function": {
+                "name": "searchKB",
+                "arguments": {}
+              }
+            }
+          ],
+          "toolCallList": [
+            {
+              "id": "call_9RlNsUEHMMHxMsmwQ6atK3Mh",
+              "type": "function",
+              "function": {
+                "name": "searchKB",
+                "arguments": {}
+              }
+            }
+          ],
+          "toolWithToolCallList": [
+            {
+              "type": "function",
+              "function": {
+                "name": "searchKB",
+                "parameters": {
+                  "type": "object",
+                  "required": [],
+                  "properties": {}
+                },
+                "description": "responce will telling the opening time information."
+              },
+              "server": {
+                "url": "https://sineeeee.app.n8n.cloud/webhook-test/6b3b670c-ed3b-4a8e-b3fb-e099baecaad5",
+                "headers": {}
+              },
+              "messages": [],
+              "toolCall": {
+                "id": "call_9RlNsUEHMMHxMsmwQ6atK3Mh",
+                "type": "function",
+                "function": {
+                  "name": "searchKB",
+                  "arguments": {}
+                }
+              }
+            }
+          ],
+          "artifact": {
+            "messages": [
+              {
+                "role": "system",
+                "message": "use 'searchKB' function when asked for opening time\nuse 'menu' function to learn the menu details, the parameter:canguanID of China Wok is '23'\n\n\n\n\n",
+                "time": 1747520410499,
+                "secondsFromStart": 0
+              },
+              {
+                "role": "bot",
+                "message": "Hello, Tot Test. 0 2.",
+                "time": 1747520411763,
+                "endTime": 1747520413993,
+                "secondsFromStart": 1.12,
+                "duration": 1679.999755859375,
+                "source": ""
+              },
+              {
+                "role": "user",
+                "message": "Opening time.",
+                "time": 1747520415103,
+                "endTime": 1747520415903,
+                "secondsFromStart": 4.46,
+                "duration": 800
+              },
+              {
+                "toolCalls": [
+                  {
+                    "id": "call_9RlNsUEHMMHxMsmwQ6atK3Mh",
+                    "type": "function",
+                    "function": {
+                      "name": "searchKB",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "role": "tool_calls",
+                "message": "",
+                "time": 1747520415921,
+                "secondsFromStart": 5.323
+              }
+            ],
+            "messagesOpenAIFormatted": [
+              {
+                "role": "system",
+                "content": "use 'searchKB' function when asked for opening time\nuse 'menu' function to learn the menu details, the parameter:canguanID of China Wok is '23'\n\n\n\n\n"
+              },
+              {
+                "role": "assistant",
+                "content": "Hello, Tot Test. 0 2."
+              },
+              {
+                "role": "user",
+                "content": "Opening time."
+              },
+              {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "id": "call_9RlNsUEHMMHxMsmwQ6atK3Mh",
+                    "type": "function",
+                    "function": {
+                      "name": "searchKB",
+                      "arguments": "{}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "call_9RlNsUEHMMHxMsmwQ6atK3Mh",
+                "content": "Tool Result Still Pending But Proceed Further If Possible."
+              }
+            ]
+          },
+          "call": {
+            "id": "e99328c9-c129-4458-a24c-f8faa657df28",
+            "orgId": "d9c63678-9426-4952-b576-27d7de29464c",
+            "createdAt": "2025-05-17T22:20:10.437Z",
+            "updatedAt": "2025-05-17T22:20:10.437Z",
+            "type": "inboundPhoneCall",
+            "monitor": {
+              "listenUrl": "wss://phone-call-websocket.aws-us-west-2-backend-production3.vapi.ai/e99328c9-c129-4458-a24c-f8faa657df28/listen",
+              "controlUrl": "https://phone-call-websocket.aws-us-west-2-backend-production3.vapi.ai/e99328c9-c129-4458-a24c-f8faa657df28/control"
+            },
+            "transport": {
+              "provider": "vapi.sip",
+              "callSid": "ba95e26b-b942-4a5f-9f88-e1f3dd56bfff",
+              "sbcCallSid": "2340191378-3956509210-1504172229@msc1.382COM.COM"
+            },
+            "phoneCallProvider": "vapi",
+            "phoneCallProviderId": "ba95e26b-b942-4a5f-9f88-e1f3dd56bfff",
+            "phoneCallTransport": "sip",
+            "phoneCallProviderDetails": {
+              "sbcCallId": "2340191378-3956509210-1504172229@msc1.382COM.COM"
+            },
+            "status": "ringing",
+            "assistantId": "d5574cc0-39a4-40a5-9eed-90b3418395e7",
+            "assistantOverrides": {
+              "variableValues": {
+                "account-sid": "c033b672-5b99-42ae-9ce2-b231e9a522fb",
+                "cid": "2340191378-3956509210-1504172229@msc1.382COM.COM",
+                "forwarded-for": "64.125.111.10",
+                "originating-carrier": "382com",
+                "voip-carrier-sid": "a5569621-84ac-49cc-a8b8-11c7fb96b905",
+                "application-sid": "79d078c8-76b2-452a-99e0-ddd5abbf6269"
+              }
+            },
+            "phoneNumberId": "194d787d-8c24-46ce-8492-864c6e7085d7",
+            "customer": {
+              "number": "+18452935758",
+              "sipUri": "sip:+18452935758@44.229.228.186:5060"
+            }
+          },
+          "phoneNumber": {
+            "id": "194d787d-8c24-46ce-8492-864c6e7085d7",
+            "orgId": "d9c63678-9426-4952-b576-27d7de29464c",
+            "assistantId": "d5574cc0-39a4-40a5-9eed-90b3418395e7",
+            "number": "+14842858453",
+            "createdAt": "2025-05-14T14:34:39.297Z",
+            "updatedAt": "2025-05-16T17:04:20.920Z",
+            "name": "Unlabeled",
+            "provider": "vapi",
+            "status": "active",
+            "providerResourceId": "468ec7f2-83f0-4bca-9397-567f1c5da233",
+            "smsEnabled": true
+          },
+          "customer": {
+            "number": "+18452935758",
+            "sipUri": "sip:+18452935758@44.229.228.186:5060"
+          },
+          "assistant": {
+            "id": "d5574cc0-39a4-40a5-9eed-90b3418395e7",
+            "orgId": "d9c63678-9426-4952-b576-27d7de29464c",
+            "name": "test_function_call",
+            "voice": {
+              "voiceId": "Elliot",
+              "provider": "vapi"
+            },
+            "createdAt": "2025-05-14T14:54:00.482Z",
+            "updatedAt": "2025-05-17T22:17:43.130Z",
+            "model": {
+              "model": "gpt-4.1-mini",
+              "toolIds": [
+                "6b3b670c-ed3b-4a8e-b3fb-e099baecaad5",
+                "6a42e0af-ad3c-4761-b44b-2d05b6d7b2bf",
+                "a50ebb70-c2e4-4165-915c-5ab218fce6e4"
+              ],
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "use 'searchKB' function when asked for opening time\nuse 'menu' function to learn the menu details, the parameter:canguanID of China Wok is '23'\n\n\n\n\n"
+                }
+              ],
+              "provider": "openai",
+              "temperature": 0.3,
+              "tools": [
+                {
+                  "id": "6b3b670c-ed3b-4a8e-b3fb-e099baecaad5",
+                  "createdAt": "2025-05-14T14:54:42.149Z",
+                  "updatedAt": "2025-05-17T22:19:33.349Z",
+                  "type": "function",
+                  "function": {
+                    "name": "searchKB",
+                    "parameters": {
+                      "type": "object",
+                      "required": [],
+                      "properties": {}
+                    },
+                    "description": "responce will telling the opening time information."
+                  },
+                  "orgId": "d9c63678-9426-4952-b576-27d7de29464c",
+                  "server": {
+                    "url": "https://sineeeee.app.n8n.cloud/webhook-test/6b3b670c-ed3b-4a8e-b3fb-e099baecaad5",
+                    "headers": {}
+                  }
+                },
+                {
+                  "id": "6a42e0af-ad3c-4761-b44b-2d05b6d7b2bf",
+                  "createdAt": "2025-05-12T21:53:44.042Z",
+                  "updatedAt": "2025-05-12T21:53:44.042Z",
+                  "type": "endCall",
+                  "function": {
+                    "name": "end_call_tool"
+                  },
+                  "orgId": "d9c63678-9426-4952-b576-27d7de29464c"
+                },
+                {
+                  "id": "a50ebb70-c2e4-4165-915c-5ab218fce6e4",
+                  "createdAt": "2025-05-14T19:08:15.949Z",
+                  "updatedAt": "2025-05-17T22:17:53.972Z",
+                  "type": "function",
+                  "function": {
+                    "name": "menu",
+                    "parameters": {
+                      "type": "object",
+                      "required": [],
+                      "properties": {}
+                    },
+                    "description": "use this tool to get menu details"
+                  },
+                  "orgId": "d9c63678-9426-4952-b576-27d7de29464c",
+                  "server": {
+                    "url": "https://webhook.site/e48e101d-0e6a-41e0-8538-9379d0bc4f66a",
+                    "headers": {}
+                  }
+                }
+              ]
+            },
+            "firstMessage": "Hello.test02",
+            "voicemailMessage": "Please call back when you're available.",
+            "endCallMessage": "Goodbye.",
+            "transcriber": {
+              "model": "nova-3",
+              "language": "en",
+              "numerals": false,
+              "provider": "deepgram",
+              "confidenceThreshold": 0.4
+            },
+            "clientMessages": [
+              "conversation-update",
+              "function-call",
+              "hang",
+              "model-output",
+              "speech-update",
+              "status-update",
+              "transfer-update",
+              "transcript",
+              "tool-calls",
+              "user-interrupted",
+              "voice-input",
+              "workflow.node.started"
+            ],
+            "serverMessages": [
+              "conversation-update",
+              "end-of-call-report",
+              "function-call",
+              "hang",
+              "speech-update",
+              "status-update",
+              "tool-calls",
+              "transfer-destination-request",
+              "user-interrupted"
+            ],
+            "hipaaEnabled": false,
+            "backgroundDenoisingEnabled": true,
+            "startSpeakingPlan": {
+              "waitSeconds": 0.4,
+              "smartEndpointingPlan": {
+                "provider": "livekit",
+                "waitFunction": "2000 / (1 + exp(-10 * (x - 0.5)))"
+              },
+              "transcriptionEndpointingPlan": {
+                "onNumberSeconds": 0.5,
+                "onPunctuationSeconds": 0.1,
+                "onNoPunctuationSeconds": 1.5
+              }
+            },
+            "variableValues": {
+              "account-sid": "c033b672-5b99-42ae-9ce2-b231e9a522fb",
+              "cid": "2340191378-3956509210-1504172229@msc1.382COM.COM",
+              "forwarded-for": "64.125.111.10",
+              "originating-carrier": "382com",
+              "voip-carrier-sid": "a5569621-84ac-49cc-a8b8-11c7fb96b905",
+              "application-sid": "79d078c8-76b2-452a-99e0-ddd5abbf6269"
+            }
+          }
+        }
+      },
+      "webhookUrl": "https://sineeeee.app.n8n.cloud/webhook-test/6b3b670c-ed3b-4a8e-b3fb-e099baecaad5",
+      "executionMode": "test"
+    }
+  ]

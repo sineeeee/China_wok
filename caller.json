@@ -1,0 +1,13 @@
+[
+    {
+      "format": {
+        "customer_name": "顾客姓名(string)",
+        "customer_phone": "电话号码(string)",
+        "address": "外送地址(可选)(string)",
+        "language_pref": "语言偏好(string)",
+        "past_orders": "历史订单(array of order_number(string)",
+        "blacklist": "黑名单(boolean)"
+      }
+    }
+  ] 
+  
