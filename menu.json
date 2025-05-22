@@ -202,24 +202,7 @@
         {"uqid":189, "n":"Brown Rice", "pp":{"sma": 2.75, "lar": 4.75}},
         {"uqid":190, "n":"White Rice", "pp":{"sma": 2.50, "lar": 4.45}},
         {"uqid":191, "n":"Noodle(Bag)", "pp":{"non": 0.50}},
-        {"uqid":192, "n":"Fortune Cookies(4 Pcs)", "pp":{"non": 0.6}},
-        {"uqid":193, "n":"Crispy Noodle", "pp":{"spe": 0}},
-        {"uqid":194, "n":"Rice", "pp":{"spe": 0}},
-        {"uqid":195, "n":"Pancakes(5)", "pp":{"spe": 0}},
-        {"uqid":196, "n":"ff", "pp":{"spe": 0}},
-        {"uqid":197, "n":"fr", "pp":{"spe": 0}},
-        {"uqid":198, "n":"pfr", "pp":{"spe": 0}},
-        {"uqid":199, "n":"vfr", "pp":{"spe": 0}},
-        {"uqid":200, "n":"cfr", "pp":{"spe": 0}},
-        {"uqid":201, "n":"bfr", "pp":{"spe": 0}},
-        {"uqid":202, "n":"sfr", "pp":{"spe": 0}},
-        {"uqid":203, "n":"hsfr", "pp":{"spe": 0}},
-        {"uqid":204, "n":"er", "pp":{"spe": 0}},
-        {"uqid":205, "n":"eds", "pp":{"spe": 0}},
-        {"uqid":206, "n":"wts", "pp":{"spe": 0}},
-        {"uqid":207, "n":"hss", "pp":{"spe": 0}}
-
-
+        {"uqid":192, "n":"Fortune Cookies(4 Pcs)", "pp":{"non": 0.6}}
     ],
 
 

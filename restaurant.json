@@ -1,0 +1,24 @@
+
+[
+{
+    "name": "str",
+    "address": "str",
+    "phone": "str",
+    "operatinghour": "str",
+    "description": "str",
+    "coupon": "折扣选择（目前只支持满多少送一道菜），先用自然语言写",
+    "default_wait": "手动设置的当前出餐时间允许饭店老板随时修改(int)"
+
+},
+    {
+    "name":"China_wok",
+    "address":"123 US-1",
+    "phone":"1231234123",
+    "operatinghour":"weekday10:00-18:00, weekend12:00-18:00",
+    "description":"best chinese food to take out",
+    "coupon":"'choice of one: 2egg roll, 2 cans soda, roast pork, fried rice with purchase over $30','choice of one:general tso's chincken, beef broccoli with purchase over $40 or more'",
+    "default_wait":"20"
+    }
+]
+
+

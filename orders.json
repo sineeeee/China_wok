@@ -17,7 +17,7 @@
             "side": "配菜选择(array)",
             "price": "单价(float)",
             "quantity": "数量(int)",
-            "note":"备注（要记录偏好、特殊选择/更换的side记录）(string)"
+            "note":"备注（要记录单独每道菜偏好）(string)"
   
           }
         ],
