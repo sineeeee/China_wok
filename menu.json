@@ -1,7 +1,6 @@
-
 {
     "format":{"uqid":0, "n":"", "id":"","pp":{"spe":0,"non": 0,"sma": 0,"lar": 0,"par": 0, "can": 0, "bot": 0, "2l": 0}, "u":["side_A","side_B"], 
-    "s":[["side_A", "side_B"], ["side_C", "side_D"], ["bs", "gs", "wbs", "bbs"]], "tt":["spy", "rec"],"today_discount":["original price:0"]},
+    "s":[["side_A", "side_B"], ["side_C", "side_D"], ["bs", "gs", "wbs", "bbs"]], "tt":["spy", "rec"],"today_discount":"10%"},
 
     
     "short hands hints":{"sma": "small", "lar": "large", "non": "no portion options", "par": "party",  "can": "can",  "bot": "bottle",  "2l": "2 liter bottle",  
@@ -12,9 +11,9 @@
     
     
     "appetizer":[
-        {"uqid":1, "n":"Roast Pork Egg Roll", "id":"1", "pp":{"non": 2.25}, "today_discount":["original price:2.8"]},
-        {"uqid":2, "n":"Shrimp Egg Roll", "id":"2", "pp":{"non": 2.75}, "today_discount":["original price:3.2"]},
-        {"uqid":3, "n":"Vegetable Spring Roll", "id":"3", "pp":{"non": 2.00}, "today_discount":["original price:2.4"]},
+        {"uqid":1, "n":"Roast Pork Egg Roll", "id":"1", "pp":{"non": 2.25}, "today_discount":"10%"},
+        {"uqid":2, "n":"Shrimp Egg Roll", "id":"2", "pp":{"non": 2.75}},
+        {"uqid":3, "n":"Vegetable Spring Roll", "id":"3", "pp":{"non": 2.00}},
         {"uqid":4, "n":"Honey Wonton", "id":"4", "pp":{"non": 6.85}},
         {"uqid":5, "n":"Fried Wonton(12)", "id":"5", "pp":{"non": 6.85}},
         {"uqid":6, "n":"Pan Fried Wonton(12)", "id":"6", "pp":{"non": 6.85}},
@@ -30,13 +29,13 @@
 
     "soup":[
         {"uqid":18, "n":"Wonton Soup", "id":"15", "pp":{"sma": 3.80, "lar": 6.40}},
-        {"uqid":19, "n":"Egg Drop Soup", "id":"16", "pp":{"sma": 3.60, "lar": 5.95}, "tt":["spy"]},
+        {"uqid":19, "n":"Egg Drop Soup", "id":"16", "pp":{"sma": 3.60, "lar": 5.95}, "tt":["spy", "rec"], "today_discount":"10%"},
         {"uqid":20, "n":"Wonton Egg Drop Soup", "id":"17", "pp":{"sma": 3.60, "lar": 6.40}},
         {"uqid":21, "n":"Chicken Noodle Soup", "id":"18", "pp":{"sma": 3.70, "lar": 6.40}},
         {"uqid":22, "n":"Chicken Rice Soup", "id":"18", "pp":{"sma": 3.70, "lar": 6.40}},
         {"uqid":23, "n":"Hot & Sour Soup", "id":"19","pp":{"sma": 3.70, "lar": 6.40}},
         {"uqid":24, "n":"Vegetable Soup", "id":"20", "pp":{"sma": 3.80, "lar": 6.40}},
-        {"uqid":25, "n":"Vegetable & Bean Curd Soup", "id":"22", "pp":{"sma": 3.80, "lar": 6.40}}
+        {"uqid":25, "n":"Vegetable & Bean Curd Soup", "id":"22", "pp":{"sma": 3.80, "lar": 6.40}, "today_discount":"10%"}
     ],
 
 
