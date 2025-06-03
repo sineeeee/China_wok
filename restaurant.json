@@ -1,26 +1,35 @@
-
 [
 {
     "name": "str",
     "address": "str",
-    "phone": "str",
+    "phone": ["允许存多个电话号码"],
     "operatinghour": "str",
-    "description": "str",
-    "cuisine": "array of str",
+    "description": ["各种餐馆描述，介绍语句，，政策，支付方式"],
+    "cuisine": ["array of str"],
+    "capacity": "int",
+    "payment method": "str",
+    "accessibility": ["array of str"],
+    "alchol":"str",
     "coupon": "折扣选择（目前只支持满多少送一道菜），先用自然语言写",
     "preparation_time": "手动设置的当前出餐时间允许饭店老板随时修改(int)"
 
 },
-    {
-    "name":"China_wok",
-    "address":"123 US-1",
-    "phone":"1231234123",
-    "operatinghour":"weekday10:00-18:00, weekend12:00-18:00",
-    "description":"best chinese food to take out",
-    "cuisine":["Sichuan", "Cantonese", "Shandong"],
-    "coupon":"'choice of one: 2egg roll, 2 cans soda, roast pork, fried rice with purchase over $30','choice of one:general tso's chincken, beef broccoli with purchase over $40 or more'",
-    "preparation_time":"20"
-    }
+
+{
+"name":"China_wok",
+"address":"1826 Lincoln Highway, Edison, NJ 08817 (Route 27 & Plainfield Avenue)",
+"phone": ["7325720727", "7325727820"],
+"operatinghour":"11:00 AM - 10:30 PM (Monday, Wednesday, Thursday), 11:00 AM - 10:30 PM (Friday, Saturday), 12:00noon - 10:30 PM (Sunday), Closed (Tuesday)",
+"description": ["China Wok is a casual dining restaurant providing a wide range of cuisine: Mandarin, Szechuan, Hunan and Cantonese Cuisine restaurant", "Delievery & Takeout focused", "Deliciously Affordable Dining", "Eat well without breaking the bank", "Great Variety", "Customers are welcome to dine in with respect to all other restaurant rules", "Customers can order takeout via phone, in-person, or delivery platforms: Uber Eats, DoorDash, Hungry Panda, Fantuan", "When not ordering with large delivery platforms, we offer delievery service within an approximate 20 minute drive, confirmation with restaurant required"],
+"cuisine":["Mandarin", "Szechuan", "Hunan", "Cantonese"],
+"capacity": "10",
+"payment method": " Visa, Mastercard, Apple Pay, Google Pay, cash, credit card minium 15 dollars",
+"accessibility": "high chair",
+"pets":"Pets are welcome inside the restaurant",
+"alchol":"Not Sold, BYOB allowed",
+"coupon":"'choice of one: 2egg roll, 2 cans soda, roast pork, fried rice with purchase over $30','choice of one:general tso's chincken, beef broccoli with purchase over $40 or more'",
+"preparation_time":"20"
+}
 ]
 
 
